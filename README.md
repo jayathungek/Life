@@ -21,15 +21,19 @@ Instructions:
  2. Compile src/Life.java
  3. Two options for running from command line:
 
-    * Using preset start seed: \>java Life [grid size] [start seed] [refresh speed]  
-       Where [start seed] is one of:  
+    + Using preset start seed: **\> java Life [grid size] [start seed] [refresh delay]**  
+       Where **[start seed]** is one of:  
          i)   blinker  
          ii)  glider  
          iii) pento  
          iv)  acorn  
          v)   lwss  
+         
+      A lower **[grid size]** results in better performance. I recommend setting this to around 700 max  
       
-    * Using a custom GRID file:  \>java Life [filename]  
+      **[refresh delay]** is the number of milliseconds between each generation
+      
+    + Using a custom GRID file:  **\>java Life [filename]**  
        These can be found in the grids/ directory
        
 Examples:
@@ -40,3 +44,9 @@ Examples:
   
 ![ark](http://s22.postimg.org/7zzg66zup/ark.png "ark.grid")  
  A few generations into ark.grid  
+ 
+![gun](http://s22.postimg.org/p9ad132vl/gun.png "gun.grid")  
+A Gosper Gun creating a steady stream of gliders. Found in biggun.grid.  
+
+![rake](http://s22.postimg.org/ol1ii545t/rake.png "rake.grid")  
+A spaceship called a Rake leaves behind a stream of gliders as it travels horizontally. Found in bigrake.grid.  
