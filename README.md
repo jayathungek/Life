@@ -1,3 +1,5 @@
+Conway's Game of Life
+======================
 Conway's game of Life is a cellular automaton devised by mathematician John Conway in 1970. It consists of a grid of cells, where each
 cell can have one of two states: alive or dead.
 
