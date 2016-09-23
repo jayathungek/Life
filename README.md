@@ -4,7 +4,7 @@ Conway's game of Life is a cellular automaton devised by mathematician John Conw
 cell can have one of two states: alive or dead.
 
 Once the grid has been populated by an initial number of live cells, the following rules come into effect:
-  1. Any live cell with less than 2 neigbors* dies
+  1. Any live cell with less than 2 neigbors** dies
   2. Any live cell with 2 or 3 neighbors survives
   3. Any live cell with more than 3 neigbors dies
   4. Any dead cell with exactly 3 neigbors comes back to life
