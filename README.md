@@ -21,19 +21,19 @@ Instructions:
  2. Compile src/Life.java
  3. Two options for running from command line:
 
-    + Using preset start seed: **\> java Life [grid size] [start seed] [refresh delay]**  
-       Where **[start seed]** is one of:  
+    + Using preset start seed: **\> java Life grid_size start_seed refresh_delay**  
+       Where **start_seed** is one of:  
          i)   blinker  
          ii)  glider  
          iii) pento  
          iv)  acorn  
          v)   lwss  
          
-      A lower **[grid size]** results in better performance. I recommend setting this to around 700 max  
+      A lower **grid_size** results in better performance. I recommend setting this to around 700 max  
       
-      **[refresh delay]** is the number of milliseconds between each generation
+      **refresh_delay** is the number of milliseconds between each generation
       
-    + Using a custom GRID file:  **\>java Life [filename]**  
+    + Using a custom GRID file:  **\>java Life filename**  
        These can be found in the grids/ directory
        
 Examples:
