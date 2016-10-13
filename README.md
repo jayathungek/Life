@@ -28,23 +28,23 @@ Instructions:
          iii) pento  
          iv)  acorn  
          v)   lwss  
-         
+
       A lower **grid_size** results in better performance. I recommend setting this to around 700 max  
-      
+
       **refresh_delay** is the number of milliseconds between each generation
-      
+
     + Using a custom GRID file:  **\>java Life filename**  
        These can be found in the grids/ directory
-       
+
 Examples:
 ---------
- ![start](http://s9.postimg.org/7bqvqm38v/acorn_start.png "Initial start seed 'acorn'") 
- ![later](http://s9.postimg.org/ubxj2y12n/acorn_later.png "A few iterations later...")   
-  Left: Start seed 'acorn'. Right: The result of running the program for a few generations  
-  
+![start](http://s9.postimg.org/7bqvqm38v/acorn_start.png "Initial start seed 'acorn'")
+![later](http://s9.postimg.org/ubxj2y12n/acorn_later.png "A few iterations later...")   
+ Left: Start seed 'acorn'. Right: The result of running the program for a few generations  
+
 ![ark](http://s22.postimg.org/7zzg66zup/ark.png "ark.grid")  
  A few generations into ark.grid  
- 
+
 ![gun](http://s22.postimg.org/p9ad132vl/gun.png "gun.grid")  
 A Gosper Gun creating a steady stream of gliders. Found in biggun.grid.  
 
