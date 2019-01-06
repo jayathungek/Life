@@ -38,9 +38,15 @@ Instructions:
 
 Examples:
 ---------
-![start](img/acorn_start.png "Initial start seed 'acorn'")
-![later](img/acorn_later.png "A few iterations later...")   
- Left: Start seed 'acorn'. Right: The result of running the program for a few generations  
+```
+
+```
+
+![start](img/acorn_start.png)   ![later](img/acorn_later.png) 
+
+Left: Start seed 'acorn'. Right: The result of running the program for a few generations
+
+
 
 ![ark](img/ark.png "ark.grid")  
  A few generations into ark.grid  
