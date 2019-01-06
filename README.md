@@ -12,8 +12,8 @@ Once the grid has been populated by an initial number of live cells, the followi
 These four simple rules can result in surprisingly complex patterns evolving from an initial starting point.
 The initial configuration of the grid is called the **seed** and the same starting seed always produces the same patterns and results.
 
-** neighbors: In this context, _neighbors_ refers to cells in the Moore neighborhood of the target cell (shown in black below)
-![moore](http://s15.postimg.org/br6z1po6z/moore_n.png "Moore neigborhood of a cell")
+** neighbors: In this context, _neighbors_ refers to cells in the Moore neighborhood (grey) of the target cell (black)
+![moore](img/moore_n.png "Moore neigborhood of a cell")
 
 Instructions:
 -------------
@@ -38,15 +38,15 @@ Instructions:
 
 Examples:
 ---------
-![start](http://s9.postimg.org/7bqvqm38v/acorn_start.png "Initial start seed 'acorn'")
-![later](http://s9.postimg.org/ubxj2y12n/acorn_later.png "A few iterations later...")   
+![start](img/acorn_start.png "Initial start seed 'acorn'")
+![later](img/acorn_later.png "A few iterations later...")   
  Left: Start seed 'acorn'. Right: The result of running the program for a few generations  
 
-![ark](http://s22.postimg.org/7zzg66zup/ark.png "ark.grid")  
+![ark](img/ark.png "ark.grid")  
  A few generations into ark.grid  
 
-![gun](http://s22.postimg.org/p9ad132vl/gun.png "gun.grid")  
+![gun](img/gun.png "gun.grid")  
 A Gosper Gun creating a steady stream of gliders. Found in biggun.grid.  
 
-![rake](http://s22.postimg.org/ol1ii545t/rake.png "rake.grid")  
+![rake](img/rake.png "rake.grid")  
 A spaceship called a Rake leaves behind a stream of gliders as it travels horizontally. Found in bigrake.grid.  
