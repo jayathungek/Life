@@ -37,11 +37,7 @@ Instructions:
        These can be found in the grids/ directory
 
 Examples:
----------
-```
-
-```
-
+---------------
 ![start](img/acorn_start.png)   ![later](img/acorn_later.png) 
 
 Left: Start seed 'acorn'. Right: The result of running the program for a few generations
